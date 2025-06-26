@@ -1,0 +1,26 @@
+# Core dependencies
+python-socketio==5.10.0
+eventlet==0.33.3
+python-engineio==4.8.0
+python-socketio[client]==5.10.0
+
+# GUI
+customtkinter==5.2.1  # Modern-looking tkinter widgets
+networkx==3.2.1       # For network topology visualization
+matplotlib==3.8.2     # For plotting network graphs
+numpy==1.26.4         # For numerical computations and array operations
+pygame==2.6.1
+
+# Utilities
+colorama==0.4.6  # For colored terminal output
+rich==13.7.0     # For better terminal formatting
+python-dotenv==1.0.0  # For environment variables
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Development
+black==23.12.1  # Code formatting
+flake8==7.0.0   # Code linting
+mypy==1.8.0     # Type checking 
